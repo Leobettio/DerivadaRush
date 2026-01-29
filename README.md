@@ -46,6 +46,24 @@ Criar um site onde a pessoa possa **treinar derivadas de forma séria e divertid
   * [ ] Decidir quais funcionalidades mínimas entram no primeiro release (ex.: pool fixo de questões, timer simples, marcar acertos/erros).
   * [ ] Escrever (para você mesmo) uma descrição curta: “O que essa primeira versão já permite fazer? O que ainda não existe?”
 
+* [ ] **Planejar UI/UX da primeira versão (antes de escrever qualquer código)**
+
+  * [ ] Fazer um mini **briefing** do produto: objetivo do site, quem é o usuário principal (ex.: aluno de Cálculo/Engenharia), em que contexto ele vai usar (PC em casa, notebook no RU, laboratório da faculdade, celular etc.). 
+  * [ ] Levantar de 3 a 5 **referências de interfaces** (sites/apps de treino, simulados, plataformas de estudo) e anotar o que funciona bem/mal em cada uma: organização de navegação, como apresentam a questão, como mostram acerto/erro, como lidam com tempo. 
+  * [ ] Mapear os **fluxos principais** da V1 em rascunho (papel ou Figma): por exemplo, “Home → escolher modo → tela de treino → ver resultado → próxima questão / sair”. 
+  * [ ] Desenhar **wireframes de baixa fidelidade** das telas essenciais (sem cor final, sem detalhe):
+
+    * Tela inicial / home
+    * Tela de treino (questão + timer + controles)
+    * Tela de resumo/estatísticas básicas (mesmo que seja bem simples na V1)
+  * [ ] Definir alguns **princípios de UX** que você quer seguir desde o começo (ex.: poucas opções por tela, sempre indicar o próximo passo, permitir desfazer/voltar em ações importantes). 
+  * [ ] Rascunhar uma **linguagem visual inicial**:
+
+    * paleta de cores base (fundos, textos) + 1 cor de ênfase para ações principais,
+    * escolha de tipografia para títulos e para textos funcionais (labels, botões),
+    * decisão de “tom”: mais sério / acadêmico vs mais gamificado.
+  * [ ] Pensar de forma preliminar no **comportamento responsivo** (desktop vs mobile): o que empilha, o que vira menu, o que pode ser escondido em telas pequenas sem quebrar a experiência. 
+
 * [ ] **Montar o esqueleto do front-end estático**
 
   * [ ] Criar repositório do projeto e estrutura básica de arquivos (HTML, CSS, JS).
